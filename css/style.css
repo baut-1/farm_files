@@ -100,9 +100,8 @@ body {
 .date {
   font-size: 9px;
   font-family: helvetica;
-  font-weight: normal;
   margin-top: 20px;
-
+  margin-left: 1.6em;
 }
 
 .video1 {
