@@ -33,6 +33,7 @@ a, button, input, label {
 
 body {
   background-color: var(--color-bg);
+  height: 150vw;
 }
 
 #frame {
@@ -101,7 +102,7 @@ body {
   font-family: helvetica;
   font-weight: normal;
   margin-top: 20px;
-  margin-left: 15px;
+
 }
 
 .video1 {
@@ -124,19 +125,19 @@ video::-webkit-media-controls-panel {
 }
 
 .img {
-  height: 210px;
-  width: 170px;
+  height: 260px;
+  width: 400px;
   margin: 1em;
   object-fit: cover;
-  border-radius: 18px;
 }
 
 .img1 {
-  height: 210px;
-  width: 170px;
+  height: 400px;
+  width: 260px;
   margin: 1em;
-  border-radius: 18px;
+  object-fit: cover;
 }
+
 
 .list {
   margin-left: 1em;
