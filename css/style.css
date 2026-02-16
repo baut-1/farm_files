@@ -135,11 +135,11 @@ video::-webkit-media-controls-panel {
   object-fit: cover;
 }
 
-.img1 {
-  height: 400px;
-  width: 260px;
-  margin: 1em;
-  object-fit: cover;
+.start {
+  height: 140px;
+  width: 140px;
+  margin: 0.3em;
+  background-color: #f2f2f2;
 }
 
 
@@ -191,9 +191,9 @@ video::-webkit-media-controls-panel {
 }
 
 .head_border {
-  border-bottom: 1px dotted lightgrey;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .head {
-  margin: 1em;
+  margin-bottom: 1em;
 }
