@@ -73,11 +73,20 @@ body {
   margin: 1em;
 }
 
-.text_menu {
+.a {
   width: 40vw;
-  font-family: 'helvetica';
-  background-color: black;
-  color: black;
+  font-family: 'times';
+  color: #4b0082;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.b {
+  width: 40vw;
+  font-family: 'times';
+  color: #e0218a;
   text-decoration: none;
   font-size: 15px;
   line-height: 18px;
