@@ -76,7 +76,7 @@ body {
 .a {
   width: 40vw;
   font-family: 'times';
-  color: #4b0082;
+  color: #00000;
   text-decoration: none;
   font-size: 15px;
   line-height: 18px;
@@ -86,7 +86,7 @@ body {
 .b {
   width: 40vw;
   font-family: 'times';
-  color: #e0218a;
+  color: #00000;
   text-decoration: none;
   font-size: 15px;
   line-height: 18px;
@@ -96,7 +96,7 @@ body {
 .c {
   width: 40vw;
   font-family: 'times';
-  color: #cfceaf;
+  color: #00000;
   text-decoration: none;
   font-size: 15px;
   line-height: 18px;
@@ -106,7 +106,7 @@ body {
 .d {
   width: 40vw;
   font-family: 'times';
-  color: darkgreen;
+  color: #00000;
   text-decoration: none;
   font-size: 15px;
   line-height: 18px;
