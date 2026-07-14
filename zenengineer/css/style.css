@@ -1,0 +1,82 @@
+
+a, button, input, label {
+  cursor: pointer
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Font face */
+
+@font-face {
+  font-family: 'lelo';
+  src: url("../font/lelo.ttf") format("truetype");
+}
+
+
+/* CSS */
+
+/* Mobile */
+@media (max-width: 900px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* CSS variables */
+:root {
+  --color-bg: ;
+  --color-primary: ;
+  --color-light:
+  --first-size: ;
+  --second-size: ;
+}
+
+/* CSS */
+
+body {
+  height: 100vw;
+  font-family: 'lelo';
+}
+
+#außer {
+  padding: 2vw;
+}
+
+#day {
+  width: 620px;
+  height: 620px;
+  display: grid;
+  grid-template-columns: repeat(4, 10fr);
+}
+
+div {
+  border: 1px;
+}
+
+.text {
+  font-size: 14px;
+  font-family: 'lelo';
+}
+
+.b {
+  
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.images {
+  width: 100px;
+  height: 130px;
+}
+
+.img_klein {
+  width: 15vw;
+  height: 15vw;
+}

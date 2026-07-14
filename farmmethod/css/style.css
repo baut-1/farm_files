@@ -1,0 +1,93 @@
+
+a, button, input, label {
+  cursor: pointer
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/* CSS */
+
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* CSS variables */
+:root {
+  --color-bg: ;
+  --color-primary: ;
+  --color-light:
+  --first-size: ;
+  --second-size: ;
+}
+
+/* CSS */
+
+body {
+  height: 50vw;
+}
+
+.head {
+  height: 20vw;
+  width: 98vw;
+  padding: 2vw;
+  border: 1px solid #9c4967;
+}
+
+
+.innen {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.inhalt {
+  height: 55vw;
+  width: 69vw;
+  padding: 2vw;
+  border: 1px solid #9c4967;
+}
+
+.nav {
+  height: 55vw;
+  width: 29vw;
+  padding: 2vw;
+  border: 1px solid #9c4967;
+}
+
+
+.text {
+  font-size: 19px;
+  font-family: times;
+  color: #9c4967;
+}
+
+.text:hover {
+    color: #9c4967;
+}
+
+.title {
+  font-size: 28px;
+  font-family: times;
+  color: #9c4967;
+}
+
+.b {
+  border: 0.1px solid lightgrey;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.images {
+  width: 100px;
+  height: 130px;
+}
