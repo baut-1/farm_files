@@ -9,13 +9,6 @@ a, button, input, label {
   box-sizing: border-box;
 }
 
-/* Font face */
-
-@font-face {
-  font-family: 'lelo';
-  src: url("../font/lelo.ttf") format("truetype");
-}
-
 
 /* CSS */
 
@@ -39,7 +32,7 @@ a, button, input, label {
 
 body {
   height: 100vw;
-  font-family: 'lelo';
+  font-family: 'lucida grande';
 }
 
 #außer {
@@ -59,7 +52,7 @@ div {
 
 .text {
   font-size: 14px;
-  font-family: 'lelo';
+  font-family: 'lucida grande';
 }
 
 .b {
@@ -67,8 +60,10 @@ div {
   padding: 5px;
 }
 
-a {
-  text-decoration: none;
+.a {
+  width: 80vw;
+  margin-left: 10vw;
+
 }
 
 .images {
