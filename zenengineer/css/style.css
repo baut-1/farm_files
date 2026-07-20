@@ -31,39 +31,79 @@ a, button, input, label {
 /* CSS */
 
 body {
-  height: 100vw;
+  height: auto;
   font-family: 'lucida grande';
 }
 
-#außer {
-  padding: 2vw;
+#main-wrapper {
+  margin: 2em;
 }
 
-#day {
+#navi {
+  width: 20vw;
+  height: 10vw;
+  margin: 1em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#head {
+  width: 20vw;
+  height: 20vw;
+  margin: 1em;
+}
+
+
+#inhalt{
+  width: 50vw;
+  margin: 1em;
+}
+
+#außer {
   width: 620px;
   height: 620px;
   display: grid;
   grid-template-columns: repeat(4, 10fr);
+  margin-left: 1em;
 }
 
 div {
   border: 1px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .text {
-  font-size: 14px;
+  font-size: 12px;
+  font-family: 'lucida grande';
+  line-height: 2;
+  color: inherit;
+}
+
+
+.nav_text {
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
   font-family: 'lucida grande';
 }
 
-.b {
+.nav_text:hover {
+  width: 8vw;
+  height: 2vw;
+  background-color: #e6e6e6;
+}
 
+.b {
   padding: 5px;
 }
 
-.a {
+.title {
   width: 80vw;
-  margin-left: 10vw;
-
+  font-size: 12px;
 }
 
 .images {
@@ -80,4 +120,12 @@ div {
   width: 10vw;
   height: 9vw;
   padding: 1em;
+  object-fit: cover;
+}
+
+.text_foot {
+  color: grey;
+  font-size: 8px;
+  margin-left: 5em;
+  margin-bottom: 5vw;
 }
